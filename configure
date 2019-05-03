@@ -15,7 +15,7 @@ inpath()
 
 if ( inpath bash ); then
     pp=""
-    for p in python3 python2 python
+    for p in python3 python2 python python3.7 python3.6 python2.7
     do
         if ( inpath $p ); then
             pp="$p"
